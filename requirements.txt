@@ -9,7 +9,6 @@ streamlit_authenticator
 pathlib
 streamlit_option_menu
 streamlit_lottie
-json
 requests
 PIL
 collections
