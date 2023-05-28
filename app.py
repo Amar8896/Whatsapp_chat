@@ -37,8 +37,7 @@ name , authenticator_status , username = authenticator.login("Login Form","main"
 
 
 
-#title change 
-st.set_page_config(page_title='XYZ')
+st.markdown("The next word is <span style='color:red'>red</span>",unsafe_allow_html=True)
 
 
 if authenticator_status == False:
