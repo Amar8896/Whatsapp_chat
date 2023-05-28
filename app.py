@@ -37,7 +37,8 @@ name , authenticator_status , username = authenticator.login("Login Form","main"
 
 
 
-
+#title change 
+st.set_page_config(page_title='XYZ')
 
 
 if authenticator_status == False:
