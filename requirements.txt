@@ -7,7 +7,6 @@ pandas
 emoji
 streamlit_authenticator
 pathlib
-pickle
 streamlit_option_menu
 streamlit_lottie
 json
