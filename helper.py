@@ -93,7 +93,7 @@ def emoji_show(selected_user,df):
 
         emojis = []
         for message in df['message']:
-            emojis.extend([c for c in message if c in emoji.EMOJI_DATA.keys())
+            emojis.extend([c for c in message if c in emoji.EMOJI_DATA.keys()])
 
         emoji_df = pd.DataFrame(Counter(emojis).most_common(len(Counter(emojis))))
         return emoji_df
