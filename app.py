@@ -260,7 +260,7 @@ if authenticator_status :
     if selected == 'Contact':
         st.header(":mailbox: Get in Touch with Us")
         contact_form = """
-            <form action="https://formsubmit.co/gugallbaba@gmail.com" method="POST">
+            <form action="https://formsubmit.co/b0c768cbedcba36a56e69dd6ad0c6c90" method="POST">
             <input type="hidden" name="_captcha" value="false">
      <input type="text" name="name" placeholder="Your name" required>
      <input type="email" name="email" placeholder="Your email" required>
