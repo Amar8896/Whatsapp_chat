@@ -231,9 +231,10 @@ if authenticator_status :
             with col1:
                 st.dataframe(emoji_df)
             with col2:
-                fig, ax = plt.subplots()
-                ax.pie(emoji_df[0].head(), labels=emoji_df[0].head())
+                fig,ax = plt.subplots()
+                ax.pie(emoji_df[1].head(),labels=emoji_df[0].head(),autopct="%0.2f")
                 st.pyplot(fig)
+            
 
     # if selected == 'Journal':
     #     st.title("")  # You Have slected Journal
