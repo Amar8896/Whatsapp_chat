@@ -217,10 +217,10 @@ if authenticator_status :
 
             most_common_df = helper.most_common_words(selected_user, df)
             st.dataframe(most_common_df)
-             st.subheader("Most Common Words")
-             fig, ax = plt.subplots()
-             ax.barh(most_common_df[0], most_common_df[1])
-             st.pyplot(fig)
+            st.subheader("Most Common Words")
+            fig, ax = plt.subplots()
+            ax.barh(most_common_df[0], most_common_df[1])
+            st.pyplot(fig)
 
             # emoji
             emoji_df = helper.emoji_show(selected_user, df)
