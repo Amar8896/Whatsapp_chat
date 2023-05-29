@@ -216,8 +216,9 @@ if authenticator_status :
             # most common words
 
             most_common_df = helper.most_common_words(selected_user, df)
-            st.dataframe(most_common_df)
             st.subheader("Most Common Words")
+            st.dataframe(most_common_df)
+            
             fig, ax = plt.subplots()
             ax.barh(most_common_df[0], most_common_df[1])
             st.pyplot(fig)
