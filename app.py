@@ -37,9 +37,6 @@ name , authenticator_status , username = authenticator.login("Login Form","main"
 
 
 
-st.markdown("The next word is <span style='color:red'>red</span>",unsafe_allow_html=True)
-
-
 if authenticator_status == False:
     st.error("Username/password is incorrect")
 if authenticator_status == None:
@@ -75,7 +72,6 @@ if authenticator_status :
 
         st.sidebar.write(
             'Welcome to the homepage of our B.Tech final year project! We are thrilled to present an innovative and impactful project that showcases our expertise and dedication to the field of technology.')
-        st.sidebar(st.markdown("The next word is <span style='color:red'>red</span>",unsafe_allow_html=True))
     if selected == 'Project':
         st.sidebar.image("WCA-bg.png")
         st.sidebar.title("Whatsapp Chat Analyzer")
